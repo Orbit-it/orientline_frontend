@@ -1,0 +1,36 @@
+{
+	"expo": {
+		"name": "OrientLine",
+		"slug": "OrientLine",
+		"platforms": [
+			"ios",
+			"android",
+			"web"
+		],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./app/assets/icon.png",
+		"splash": {
+			"image": "./app/assets/splash.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#fff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [
+			"**/*"
+		],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"package": "com.orbitit.orientline",
+			"versionCode": 1
+		},
+		"description": "Une plateforme d'orientation pour les études supérieures.",
+		"notification": {
+			"iosDisplayInForeground": true
+		}
+	}
+}
